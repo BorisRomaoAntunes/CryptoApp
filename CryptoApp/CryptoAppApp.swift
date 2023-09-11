@@ -12,7 +12,7 @@ struct CryptoAppApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                HomeVIew()
+                HomeView()
                     .navigationBarHidden(true)
             }
         }
